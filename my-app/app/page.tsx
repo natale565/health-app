@@ -65,8 +65,12 @@ export default function Home() {
                   />
                 </CUR.Field.Root>
 
-                <CUR.Button onClick={handleUserLogin}>
-                  <CUR.Link to={'/dashboard'}>Login</CUR.Link>
+                <CUR.Button
+                  onClick={() => {
+                    handleUserLogin(input.userName, input.password);
+                  }}
+                >
+                  <CUR.Link href={'/dashboard'}>Login</CUR.Link>
                 </CUR.Button>
               </CUR.Fieldset.Content>
             </CUR.Fieldset.Root>
