@@ -19,7 +19,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "@chakra-ui/react": [
+        "../../packages/react/src"
+      ]
     }
   },
   "include": [

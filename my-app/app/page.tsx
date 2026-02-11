@@ -76,5 +76,3 @@ export default function Home() {
     </CUR.AbsoluteCenter>
   );
 }
-
-//commit current changes
